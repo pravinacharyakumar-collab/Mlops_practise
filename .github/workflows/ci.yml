@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+      - feature/ml-api-development
+
+  pull_request:
+    branches:
+      - main
+
 jobs:
   test: 
     runs-on: ubuntu-latest
